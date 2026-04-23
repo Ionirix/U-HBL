@@ -1,3 +1,6 @@
+<img width="1024" height="1536" alt="Copilot_20260423_013112" src="https://github.com/user-attachments/assets/96990daa-d0a1-4ca0-90ed-397ed4aa9af7" />
+
+
 # **Urban Heating Backbone Line (U‑HBL)**  
 ### **A Public‑Benefit Technical Standard for Electrified Heating Infrastructure**
 
