@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Zone",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "boundaries": { "type": "array", "items": { "type": "number" } }
+  },
+  "required": ["id", "name"]
+}

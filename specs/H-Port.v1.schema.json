@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "H‑Port v1",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "version": { "type": "string", "enum": ["1.0"] },
+    "supported_devices": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "capabilities": {
+      "type": "object",
+      "properties": {
+        "telemetry": { "type": "boolean" },
+        "control": { "type": "boolean" },
+        "demand_response": { "type": "boolean" }
+      },
+      "required": ["telemetry"]
+    },
+    "endpoints": {
+      "type": "object",
+      "properties": {
+        "data": { "type": "string", "format": "uri" },
+        "control": { "type": "string", "format": "uri" }
+      },
+      "required": ["data"]
+    }
+  },
+  "required": ["id", "version", "supported_devices", "capabilities", "endpoints"]
+}

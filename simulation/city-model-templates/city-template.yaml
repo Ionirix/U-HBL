@@ -1,0 +1,12 @@
+# U‑HBL City Model Template
+zones:
+  - id: zone-1
+    name: Central District
+    boundaries: [0,0,10,10]
+    circuits:
+      - id: circuit-1
+        devices:
+          - id: device-1
+            type: heat-pump
+            model: HP-1000
+            hport: hport-1
